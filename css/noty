@@ -1,0 +1,17 @@
+function message(mess,type){
+		noty({text:'<center>'+mess+'</center>',
+					type:type,
+					theme:'relax',
+					closWidth:['click'],
+					layout:'topRight',
+					timeout:7000,
+					 animation   : {
+                    open  : 'animated bounceInRight',
+                    close : 'animated bounceOutRight',
+                    easing: 'swing',
+                    speed : 500
+                	},
+                	maxVisible  : 3,
+
+				});
+	}

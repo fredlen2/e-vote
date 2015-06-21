@@ -1,0 +1,161 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font: bold 20px Tahoma;
+}
+
+h2{
+	font: bold 14px Tahoma;
+}
+
+header, section, footer, aside, nav, articles, hgroup{
+	display: block;
+}
+
+body{width: 100%;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	background: url(pics/background.jpg) ;
+	/* background: url(pics/background.jpg) ;
+	text-align:center; */
+}
+
+#big_wrapper{
+	max-width: 1000px;
+	margin: 15px 0px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-border-radius: 25px;
+	-webkit-box-flex: 1;
+	border-bottom: 2px solid green;
+	background-color: rgb(255,245,220);
+	
+}
+
+#top_header{
+	height: 200px;
+	width: 1000px;
+	-webkit-border-radius: 20px;
+	background-image: url(pics/head.jpg) ;
+	
+}
+#new_div{
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-orient: horizontal;
+}
+#header_picture{
+	/* border: 1px solid blue;*/
+	height: 200px;
+	width: 999px;
+}
+#top_menu{
+	background-color: rgb(136,248,176);
+	color: white;
+}
+
+#top_menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+	font: bold 14px Tahoma;
+}
+
+.hover_menu{
+	padding: 20px;
+	margin: 0px;
+}
+
+#section_search{
+	border: 1px solid blue;
+	float: center;
+	width: 430px; 
+	padding: 15px;
+	margin: 10px; /* This is 720px, 280px left */
+} 
+#main_section_search{
+	display: -webkit-box;
+	-webkit-border-radius: 20px;
+	background-color: rgb(136,248,176);
+	border: 1px solid red;
+	width: 450px;
+	padding:40px;
+	margin-left: 250px;
+	margin-top: 50px; /* This is 720px, 280px left */
+	margin-bottom: 50px;
+}
+
+#main_login{
+	padding:50px;
+	margin: 20px;
+	
+}
+.container
+{
+   margin-top:4px;
+   margin-bottom: 4px;
+}
+
+.data_section{
+	float: center;
+	width: 980px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	padding: 0px;
+}
+	
+#the_footer{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid green;
+	font: bold 16px Tahoma;
+	color: rgb(148,201,141);
+	background-color: rgb(242,199,172);
+	-webkit-border-radius: 30px;
+}
+
+footer a{
+	clear: both;
+	font: bold 16px Tahoma;
+	color: rgb(148,201,141);
+}
+
+.medication_section{
+	border:1px solid green;
+	width: 600px
+}
+#regis_formMain{
+	padding: 10px;
+}
+
+#regis_form{
+	padding: 2px;
+	margin: 2px;
+}
+#regis_form_sname{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+}
+#regis_form_fname{
+	float: left;
+	padding: 1px;
+	margin: 2px;
+}
+#medi_select{
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-bottom: 0px;
+}
+#logout_div{
+	width: 80px;
+	float: right;
+	margin-right: 50px;
+}
